@@ -23,6 +23,8 @@
 - Cuarto Paso: Integrar JS con Html
 
 
+## Taller #4 - Promedio, Mediana, Modo
+
 
 
 
