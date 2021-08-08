@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y Descuentos</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Porcentajes y Descuentos
+        </h1>
+    </header>
+    <section>
+        <h2>Calculo el Precio a Pagar de tus Productos con descuentos</h2>
+        <form action="">
+            <label for="InputPrecio">Precio</label>
+            <input id="InputPrecio" type="number">
+            
+            <label for="InputDescuento">Descuento</label>
+            <input id="InputDescuento" type="number">
+
+            <button type="button" onclick="fn_Calcular_Precio_ConDescuento()">
+                Calcular Precio con Descuento
+            </button>
+
+            <p id="idPrecioDescuento"></p>
+
+            <p>
+                Cupones
+            </p>
+
+            <label for="InputCoupon">Escribe el cupón de descuento para tu producto:</label>
+            <input id="InputCoupon" type="text" />
+
+            <p>
+                {
+                    name: "JuanDC_es_Batman",
+                    discount: 15,
+                },
+                {
+                    name: "pero_no_le_digas_a_nadie",
+                    discount: 30,
+                },
+                {
+                    name: "es_un_secreto",
+                    discount: 25,
+                },
+
+            </p>
+
+
+        </form>
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
